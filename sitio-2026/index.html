@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Decora Textiles · Imprenta, agencia y sistemas inteligentes en Guadalajara</title>
+<meta name="description" content="Decora Textiles es una imprenta que piensa como agencia y opera con sistemas: lonas, vinil, uniformes, papelería y promocionales en Guadalajara, con seguimiento visible de tu pedido.">
+<meta name="theme-color" content="#0B0C10">
+<meta property="og:title" content="Decora Textiles · Detrás de cada pieza, un sistema">
+<meta property="og:description" content="Imprenta, agencia y sistemas inteligentes en Guadalajara, México.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="img/logo-grafito.png">
+<link rel="preload" href="fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/decora.css">
+<script src="js/arranque.js"></script>
+</head>
+<body>
+<!-- Iconos del sitio (trazo, heredan el color del texto) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.2A8.5 8.5 0 1 1 20 11.5z"/><path d="M9 8.6c0 3.4 3 6.4 6.4 6.4l1-1.5-2-1-1 .8a4 4 0 0 1-2-2l.8-1-1-2z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".7" fill="currentColor"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-quote" viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></symbol>
+  <symbol id="i-steps" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+</svg>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<!-- ================= ENCABEZADO (igual en todo el sitio) ================= -->
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Decora Textiles, inicio"><img src="img/logo-blanco.png" alt="" width="32" height="32"><span>DECORA TEXTILES</span></a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#nosotros">Nosotros</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="#como-pedir">Cómo pedir</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="quote-btn" type="button" data-open-quote><span class="qb-lbl">Mi cotización</span><span class="count" data-qcount>0</span></button>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">
+      <svg class="bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+      <svg class="x-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="contenido">
+
+<!-- ================= PORTADA (oscura) ================= -->
+<section class="hero dark" id="inicio" aria-labelledby="h-hero">
+  <div class="trama-viva" aria-hidden="true"></div>
+  <div class="aura" aria-hidden="true"><span class="ap p1"><i></i></span><span class="ap p2"><i></i></span></div>
+  <div class="wrap">
+    <div class="hero-copy">
+      <p class="eyebrow" data-hero="eyebrow">Desde 2023 en Guadalajara</p>
+      <h1 class="hero-h1" id="h-hero">
+        <span class="ln"><span class="ln-in" data-hero="ln">Decora</span></span>
+        <span class="ln"><span class="ln-in" data-hero="ln-em"><em>Textiles</em></span></span>
+      </h1>
+      <p class="hero-sub" data-hero="resto">Imprenta, agencia y sistemas inteligentes.</p>
+      <p class="lead" data-hero="resto">Piezas bien hechas, entregadas a tiempo y con seguimiento visible.</p>
+      <div class="cta-row" data-hero="resto">
+        <a class="btn btn-azul" href="catalogo.html">Ver catálogo</a>
+        <a class="btn btn-cristal" href="#como-pedir">Cómo pedir</a>
+      </div>
+    </div>
+    <div class="seal" aria-hidden="true" data-hero="seal">
+      <div class="disc"></div>
+      <div class="spin" data-hero="spin"><div class="float">
+        <div class="anillo" aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><circle cx="50" cy="50" r="48.5"/></svg></div>
+        <div class="logo-eco" data-hero="eco"></div>
+        <img class="logo" src="img/logo-blanco.png" alt="" width="320" height="320" data-hero="logo">
+      </div></div>
+      <div class="glass-note glass" data-hero="nota">
+        <small>Guadalajara, México</small>
+        <p>Detrás de cada pieza, <em>un sistema.</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CINTA DE SERVICIOS (en bucle; el segundo bloque solo cierra el ciclo) ================= -->
+<div class="cinta" role="region" aria-label="Servicios que ofrecemos">
+  <div class="cinta-pista">
+    <ul><li>Sublimación</li><li>Serigrafía</li><li>DTF y vinil textil</li><li>Bordado computarizado</li><li>Impresión en lona</li><li>Viniles</li><li>Tarjetas de presentación</li><li>Bolsas esmeriladas</li><li>Banners publicitarios</li><li>Stickers</li><li>Cuadros personalizados</li><li>Vinil automotriz</li></ul>
+    <ul aria-hidden="true"><li>Sublimación</li><li>Serigrafía</li><li>DTF y vinil textil</li><li>Bordado computarizado</li><li>Impresión en lona</li><li>Viniles</li><li>Tarjetas de presentación</li><li>Bolsas esmeriladas</li><li>Banners publicitarios</li><li>Stickers</li><li>Cuadros personalizados</li><li>Vinil automotriz</li></ul>
+  </div>
+</div>
+
+<!-- ================= QUIÉNES SOMOS (clara) ================= -->
+<section class="sec sec--bruma" id="nosotros" aria-labelledby="h-nosotros">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Quiénes somos</p>
+      <h2 class="h2" id="h-nosotros">Una imprenta que piensa como agencia y opera con <em>sistemas.</em></h2>
+    </div>
+    <div class="trio" data-stagger>
+      <article class="pilar" data-item>
+        <h3>Imprenta</h3>
+        <p>Lonas, vinil, textiles y papelería con atención al detalle.</p>
+      </article>
+      <article class="pilar" data-item>
+        <h3>Agencia</h3>
+        <p>Diseño y comunicación, de la idea a la pieza final.</p>
+      </article>
+      <article class="pilar azul" data-item>
+        <h3>Sistemas</h3>
+        <p>Las herramientas digitales detrás de cada venta y atención.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= QUÉ HACEMOS (oscura) ================= -->
+<section class="sec sec--noche dark" id="que-hacemos" aria-labelledby="h-hacemos">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Qué hacemos</p>
+      <h2 class="h2" id="h-hacemos">Producimos. Conectamos. <em>Acompañamos.</em></h2>
+    </div>
+    <div class="hacemos" data-stagger>
+      <article class="hacer" data-item>
+        <h3>Producción</h3>
+        <p class="sub">Piezas bien hechas, a tiempo.</p>
+        <ul>
+          <li>Lonas y gran formato</li>
+          <li>Viniles decorativos y automotrices</li>
+          <li>Playeras y uniformes</li>
+          <li>Pósters, flyers y banners</li>
+          <li>Papelería y empaque</li>
+          <li>Pre-prensa y diseño</li>
+        </ul>
+      </article>
+      <article class="hacer" data-item>
+        <h3>Sistemas inteligentes</h3>
+        <p class="sub">Lo que hace que todo fluya.</p>
+        <ul>
+          <li>Adquisición de clientes</li>
+          <li>Prospección automatizada</li>
+          <li>Cotización y venta</li>
+          <li>Servicio al cliente por WhatsApp</li>
+        </ul>
+      </article>
+      <article class="hacer" data-item>
+        <h3>Experiencia digital</h3>
+        <p class="sub">Para que sepas en qué punto va tu pedido.</p>
+        <ul>
+          <li>Páginas web</li>
+          <li>Apps logísticas</li>
+          <li>Seguimiento de pedidos</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CATÁLOGO 2026 (clara) ================= -->
+<section class="sec sec--bruma" id="catalogo-resumen" aria-labelledby="h-cat">
+  <div class="wrap">
+    <div class="cat-top">
+      <div>
+        <p class="eyebrow">Catálogo y cotizador</p>
+        <h2 class="h2" id="h-cat">Tu marca, en cada <em>pieza.</em></h2>
+        <p class="lead" style="margin-top:18px">Elige productos, arma tu cotización con sus claves y envíala por WhatsApp.</p>
+        <div class="cta-row">
+          <a class="btn btn-noche" href="catalogo.html">Ver catálogo completo</a>
+          <button class="btn btn-azul" type="button" data-open-quote>Abrir cotizador</button>
+        </div>
+        <p class="nota-cot">El cotizador vive dentro del catálogo: agrega productos con <b>+</b> y envía tu cotización por WhatsApp.</p>
+      </div>
+      <dl class="facts" data-counters>
+        <div><dt>productos</dt><dd><span data-count data-stat="productos" data-to="28">28</span></dd></div>
+        <div><dt>claves de producto</dt><dd><span data-count data-stat="claves" data-to="34">34</span></dd></div>
+        <div><dt>días hábiles de entrega</dt><dd><span data-count data-to="2">2</span>–<span data-count data-to="3">3</span></dd></div>
+      </dl>
+    </div>
+    <div class="tiles" id="tiles" data-reveal>
+      <noscript><a class="btn btn-noche" href="catalogo.html">Ver el catálogo</a></noscript>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CÓMO PEDIR (oscura) ================= -->
+<section class="sec sec--noche dark" id="como-pedir" aria-labelledby="h-pedir">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Cómo pedir</p>
+      <h2 class="h2" id="h-pedir">Del primer mensaje <em>a la entrega.</em></h2>
+      <p class="lead">Seis pasos. Sabes en qué punto va tu pedido sin tener que preguntar.</p>
+    </div>
+    <div class="steps-wrap" id="steps-wrap">
+    <span class="rail" aria-hidden="true"></span>
+    <span class="rail-fill" aria-hidden="true"></span>
+    <ol class="steps" id="steps">
+      <li><span class="n" aria-hidden="true">1</span><h3>Cuéntanos qué necesitas</h3><p>Arma tu cotización aquí o escríbenos con producto, cantidad y uso.</p></li>
+      <li><span class="n" aria-hidden="true">2</span><h3>Recibes tu cotización</h3><p>Precio claro y tiempo de entrega estimado.</p></li>
+      <li><span class="n" aria-hidden="true">3</span><h3>Confirmas el diseño</h3><p>Te enviamos la prueba digital. Nada se produce hasta que la apruebas.</p></li>
+      <li><span class="n" aria-hidden="true">4</span><h3>Anticipo del 50%</h3><p>Arranca la producción. Efectivo, transferencia o tarjeta de crédito.</p></li>
+      <li class="prod"><span class="n" aria-hidden="true">5</span><h3>Producción con control</h3><p>Revisamos color, corte y acabado antes de empacar.</p></li>
+      <li class="prod"><span class="n" aria-hidden="true">6</span><h3>Entrega y seguimiento</h3><p>2 a 3 días hábiles tras confirmar el diseño, con aviso en cada etapa.</p></li>
+    </ol>
+    </div>
+    <div class="legend"><span>Azul: sistemas inteligentes (cotización, seguimiento y atención por WhatsApp)</span><span class="k">Grafito: producción y logística</span></div>
+  </div>
+</section>
+
+<!-- ================= CLIENTES Y DIFERENCIA (clara) ================= -->
+<section class="sec sec--bruma" id="clientes" aria-labelledby="h-clientes">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Para quién trabajamos</p>
+      <h2 class="h2" id="h-clientes">Para quienes necesitan que su marca <em>llegue bien.</em></h2>
+    </div>
+    <div class="duo" data-stagger>
+      <article class="cliente" data-item>
+        <span class="tag">B2B</span>
+        <h3>Empresas e industria</h3>
+        <ul>
+          <li>Uniformes corporativos e industriales</li>
+          <li>Rotulación, lonas y vinil automotriz</li>
+          <li>Papelería, empaque y material publicitario</li>
+        </ul>
+      </article>
+      <article class="cliente b2c" data-item>
+        <span class="tag">B2C</span>
+        <h3>Marcas y personas</h3>
+        <ul>
+          <li>Playeras y prendas personalizadas</li>
+          <li>Etiquetas, tarjetas y bolsas para marcas de ropa</li>
+          <li>Diseño y pre-prensa listos para producir</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CON QUIÉN YA TRABAJAMOS + COMPROMISOS (oscura) ================= -->
+<section class="sec sec--noche dark" id="trabajamos" aria-labelledby="h-trabajamos">
+  <div class="wrap">
+    <div class="hist-top">
+      <div>
+        <p class="eyebrow">Con quién ya trabajamos</p>
+        <h2 class="h2" id="h-trabajamos">Marcas, empresas y emprendedores <em>de Guadalajara.</em></h2>
+      </div>
+      <figure class="nota glass" style="margin:0">
+        <small>Nota del fundador</small>
+        <blockquote style="margin:0"><p>Queríamos que pedir una impresión fuera tan claro como recibirla.</p></blockquote>
+        <figcaption><b>Diego Romeo Abrica Rivera</b><span>Fundador</span></figcaption>
+      </figure>
+    </div>
+
+    <!-- CIFRAS DE REFERENCIA (tomadas del sitio anterior). Cámbialas por las reales: data-to es la meta del contador y el texto es el valor final sin animación. -->
+    <dl class="refs" data-counters data-stagger>
+      <div data-item><dt>clientes atendidos</dt><dd><span data-count data-to="1200">1,200</span><span class="mas">+</span></dd></div>
+      <div data-item><dt>trabajos entregados</dt><dd><span data-count data-to="5400">5,400</span><span class="mas">+</span></dd></div>
+      <div data-item><dt>servicios</dt><dd><span data-count data-to="12">12</span></dd></div>
+    </dl>
+    <ul class="tipos" aria-label="Tipos de cliente">
+      <li>Marcas de ropa</li><li>Boutiques</li><li>Empresas e industria</li><li>Emprendedores</li><li>Personas</li>
+    </ul>
+
+    <div class="promesas-head">
+      <p class="eyebrow">Compromisos</p>
+      <h2 class="h2" style="font-size:clamp(2rem,4.4vw,3.4rem)">Lo que esperas de <em>cada pedido.</em></h2>
+    </div>
+    <div class="promesas" data-stagger>
+      <article class="promesa" data-item>
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 12.5V4h8.5l8.5 8.5-8 8-9-8Z"/><circle cx="8" cy="8.5" r="1.3"/></svg></span>
+        <small>Precio</small><h3>Precio claro</h3>
+        <p>Cada producto tiene clave y precio publicado. Lo demás se cotiza a medida.</p>
+      </article>
+      <article class="promesa" data-item>
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.4 3 8.3 7.5 9.5 4.5-1.2 7.5-5.1 7.5-9.5V6L12 3Z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg></span>
+        <small>Diseño</small><h3>Prueba antes de producir</h3>
+        <p>Nada se produce hasta que apruebas la prueba digital.</p>
+      </article>
+      <article class="promesa" data-item>
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+        <small>Entrega</small><h3>2 a 3 días hábiles</h3>
+        <p>Desde que confirmas el diseño, con aviso en cada etapa.</p>
+      </article>
+      <article class="promesa" data-item>
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9.5L5 20v-4H4V5Z"/><path d="M8 9.5h8M8 12.5h5"/></svg></span>
+        <small>Atención</small><h3>Todo en un solo chat</h3>
+        <p>Cotiza, confirma y da seguimiento por WhatsApp.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PREGUNTAS (clara) ================= -->
+<section class="sec sec--bruma" id="preguntas" aria-labelledby="h-faq">
+  <div class="wrap faq-grid">
+    <div class="faq-head">
+      <p class="eyebrow">Preguntas frecuentes</p>
+      <h2 class="h2" id="h-faq">Lo que más nos preguntan, <em>claro.</em></h2>
+    </div>
+    <div class="qa">
+        <details open><summary>¿Cuánto es el anticipo y cómo se paga?</summary><p>El 50% del pedido, en efectivo, transferencia o tarjeta de crédito. Con él arranca la producción.</p></details>
+        <details><summary>¿Cuánto tarda mi pedido?</summary><p>2 a 3 días hábiles después de que confirmas el diseño.</p></details>
+        <details><summary>¿Cuánto cuesta el envío?</summary><p>Depende del destino. Lo confirmamos con tu cotización.</p></details>
+        <details><summary>¿Para qué sirve la clave de cada producto?</summary><p>Identifica producto y variante (PLY-002 es la playera 2XL). Inclúyela en tu mensaje y cotizamos más rápido.</p></details>
+        <details><summary>¿Me ayudan con el diseño?</summary><p>Sí. Te enviamos la prueba digital antes de producir.</p></details>
+      </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= CIERRE + PIE: una sola sección oscura ================= -->
+<div class="fin dark">
+<!-- ================= CIERRE: ¿Listo para cotizar? (oscura, ancho completo) ================= -->
+<section class="sec sec--noche dark cierre contact" id="contacto" aria-labelledby="h-cierre">
+  <div class="aura" aria-hidden="true"><span class="ap p1"><i></i></span><span class="ap p2"><i></i></span></div>
+  <div class="anillo anillo-grande" aria-hidden="true"><svg viewBox="0 0 100 100" focusable="false"><circle cx="50" cy="50" r="48.5"/></svg><img src="img/logo-blanco.png" alt="" width="320" height="320" loading="lazy" decoding="async"></div>
+  <div class="wrap">
+    <p class="eyebrow">Contacto</p>
+    <h2 id="h-cierre"><span class="ln"><span>¿Listo para cotizar?</span></span> <span class="ln"><span><em>Escríbenos.</em></span></span></h2>
+    <p class="lead">Mándanos tu lista con las claves de producto y te respondemos con tu cotización.</p>
+    <div class="costura" aria-hidden="true"></div>
+    <ul class="canales">
+      <li class="canal">
+        <span class="ico-wrap"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg></span>
+        <div class="canal-txt"><p class="canal-t">Teléfono</p><a class="canal-v" href="tel:+523322247418" id="phone">33 2224 7418</a></div>
+        <button class="copy-inline" type="button" id="copyPhone">Copiar</button>
+      </li>
+      <li class="canal">
+        <span class="ico-wrap"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg></span>
+        <div class="canal-txt"><p class="canal-t">WhatsApp</p><a class="canal-v" href="https://wa.me/523337238350" target="_blank" rel="noopener">33 3723 8350</a></div>
+        <svg class="ico flecha" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </li>
+      <li class="canal">
+        <span class="ico-wrap"><svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg></span>
+        <div class="canal-txt"><p class="canal-t">Instagram</p><a class="canal-v" href="https://www.instagram.com/decora.textiles/" target="_blank" rel="noopener">@decora.textiles</a></div>
+        <svg class="ico flecha" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </li>
+      <li class="canal">
+        <span class="ico-wrap"><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg></span>
+        <div class="canal-txt"><p class="canal-t">Dirección</p><a class="canal-v" href="https://www.google.com/maps/search/?api=1&amp;query=Isla+Contoy+3125+Guadalajara+Jalisco" target="_blank" rel="noopener">Isla Contoy 3125<br>Guadalajara, Jalisco</a></div>
+        <svg class="ico flecha" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </li>
+    </ul>
+    <div class="cta-row">
+      <a class="btn btn-azul btn-wa" id="contactWa" href="https://wa.me/523337238350?text=Hola%2C%20Decora%20Textiles.%20Vi%20su%20cat%C3%A1logo%202026%20y%20quiero%20cotizar." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Abrir WhatsApp</a>
+      <button class="btn btn-cristal" type="button" data-open-quote><svg class="ico" aria-hidden="true"><use href="#i-quote"/></svg>Ver mi cotización</button>
+      <a class="btn btn-cristal" href="#como-pedir"><svg class="ico" aria-hidden="true"><use href="#i-steps"/></svg>Cómo pedir</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= FOOTER (igual en todo el sitio) ================= -->
+<footer class="footer dark">
+  <div class="wrap">
+    <div class="top-row">
+      <p class="sign">Detrás de cada pieza,<br><em>un sistema.</em></p>
+      <nav aria-label="Pie de página">
+        <a href="index.html#nosotros">Nosotros</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="index.html#como-pedir">Cómo pedir</a>
+        <a href="index.html#contacto">Contacto</a>
+        <a href="https://wa.me/523337238350" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+    <div class="meta">
+      <span><b>Decora Textiles</b> · Imprenta, agencia y sistemas inteligentes · Guadalajara, Jalisco</span>
+    </div>
+    <p class="nota-anios">Nació en 2023 · Formalizada en 2026</p>
+  </div>
+</footer>
+</div>
+
+<!-- Cortina de transición: la trama (rayas diagonales a 47°) cubre y descubre la página -->
+<div class="curtain" id="curtain" aria-hidden="true">
+  <div class="curtain-rot"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <img class="curtain-logo" src="img/logo-blanco.png" alt="" width="84" height="84">
+</div>
+
+<!-- Datos y funciones (en este orden) -->
+<script src="js/productos.js"></script>
+<script src="js/cotizacion.js"></script>
+<script src="js/cookies.js"></script>
+<script src="js/inicio.js"></script>
+<!-- GSAP 3.12.5 propio (js/vendor): sin dependencias de terceros en el navegador -->
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/animaciones.js"></script>
+</body>
+</html>
